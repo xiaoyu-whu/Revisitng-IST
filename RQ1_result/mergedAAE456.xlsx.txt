@@ -1,0 +1,13 @@
+"x"
+"GP" 1
+"ZIPR" 2
+"PR" 2
+"ZINBR" 2
+"NBR" 2
+"HR" 2
+"NNR" 3
+"SVR" 3
+"DTR" 4
+"BRR" 4
+"LR" 4
+"KNR" 5

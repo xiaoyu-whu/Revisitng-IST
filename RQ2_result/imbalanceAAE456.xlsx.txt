@@ -1,0 +1,17 @@
+"x"
+"SVR" 1
+"BRR" 2
+"OS+DTR" 2
+"LR" 2
+"SR+DTR" 3
+"GBR" 3
+"BG+BRR" 3
+"AR+DTR" 3
+"BG+LR" 3
+"BG+DTR" 4
+"AR+LR" 4
+"OS+BRR" 5
+"SR+BRR" 5
+"OS+LR" 5
+"SR+LR" 5
+"AR+BRR" 5

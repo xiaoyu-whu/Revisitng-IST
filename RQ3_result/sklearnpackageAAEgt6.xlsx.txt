@@ -1,0 +1,10 @@
+"x"
+"IG+BRR" 1
+"IG+LR" 1
+"GS+DTR" 2
+"BRR" 2
+"LR" 2
+"GS+LR" 2
+"GS+BRR" 2
+"IG+DTR" 2
+"DTR" 2
