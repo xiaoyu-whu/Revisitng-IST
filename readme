@@ -1,15 +1,9 @@
-This is the source code of the paper 'Predicting the Precise Number of Software Defects: Are We There Yet?' published in Information and Software Technology
+This is the source code of the paper 'Predicting the Precise Number of Software Defects: Are We There Yet?' published in Information and Software Technology.
 
-1. We use the R package to implement Poisson Regression, Zero-Inflated Poisson Regression, Negative Binomial Regression,
- Zero-Inflated Negative Binomial Regression, and Hurdle Poisson Regression. Please first run regression.R to obtain the
- predicted number of defects in the testing datasets via the 5 regression algorithms. The results will be stored in Rresult.
+1. We use the R package to implement Poisson Regression, Zero-Inflated Poisson Regression, Negative Binomial Regression, Zero-Inflated Negative Binomial Regression, and Hurdle Poisson Regression. Please first run regression.R to obtain the predicted number of defects in the testing datasets via the 5 regression algorithms. The results will be stored in Rresult.
 
-2. Please then run MainRpackage.py to get the performance measures (i.e., AAE, AAE0, AAE1, AAE2, AAE3, AAE456, AAE6+, Pred(0.3),
-Pred(0.3)0, Pred(0.3)1, Pred(0.3)2, Pred(0.3)3, Pred(0.3)456, Pred(0.3)6, Pred(0.3)6+) of the 5 regression algorithms implemented
+2. Please then run MainRpackage.py to get the performance measures (i.e., AAE, AAE0, AAE1, AAE2, AAE3, AAE456, AAE6+, Pred(0.3),Pred(0.3)0, Pred(0.3)1, Pred(0.3)2, Pred(0.3)3, Pred(0.3)456, Pred(0.3)6, Pred(0.3)6+) of the 5 regression algorithms implemented
 by R package. Then results will be stored in test_result.
 
-3. Please finally run MainSklearn.py to get the performance measures of Genetic Programming (GP), Neural Network Regression (NNR),
-Decision Tree Regression (DTR),  Linear Regression (LR), Bayesian Ridge Regression (BRR), Support Vector Regression (SVR), K-nearest Neighbors Regression (KNR),
-(AdaBoost.R2)AR+DTR, AR+LR,AR+BRR, (Bagging)BG+DTR, BG+LR, BG+BRR, SmoteR+DTR, SmoteR+LR, SmoteR+BRR, (Random Over-Sampling)ROS+DTR, ROS+LR, ROS+BRR,
-(Information Gain)IG+DTR, IG+LR, IG+BRR, (Grid Search)GS+DTR, GS+LR, and GS+BRR implemented by Sklean package and Python 3.6.
-Then results will be stored in test_result.
+3. Please finally run MainSklearn.py to get the performance measures of Genetic Programming (GP), Neural Network Regression (NNR),Decision Tree Regression (DTR),  Linear Regression (LR), Bayesian Ridge Regression (BRR), Support Vector Regression (SVR), K-nearest Neighbors Regression (KNR),
+(AdaBoost.R2)AR+DTR, AR+LR,AR+BRR, (Bagging)BG+DTR, BG+LR, BG+BRR, SmoteR+DTR, SmoteR+LR, SmoteR+BRR, (Random Over-Sampling)ROS+DTR, ROS+LR, ROS+BRR, (Information Gain)IG+DTR, IG+LR, IG+BRR, (Grid Search)GS+DTR, GS+LR, and GS+BRR implemented by Sklean package and Python 3.6. Then results will be stored in test_result.
